@@ -1,0 +1,32 @@
+img{
+    width: 300px;
+  }
+  
+  #images{
+    display: flex;
+    align-items: flex-start;
+    transition: all 1s;
+    position: relative;
+  }
+  #window{
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  .red{
+   background: rgb(171,28,32)!important;
+    transform: scale(1.2);
+  }
+  #buttons{
+    display: flex;
+    position: absolute;
+    top: 97%;
+    left: 43%;
+  }
+  #buttons >div{
+    background: rgb(196,175,146);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
